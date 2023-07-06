@@ -1,0 +1,130 @@
+@media (max-width:65em) {
+    .navbar {
+        width: 100%;
+        top: 0px;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+
+@media (max-width:62em) {
+    .about-img-box {
+        width: 95%;
+    }
+
+    .about-img-box::after {
+        transform: rotate(-13deg);
+        -webkit-transform: rotate(-13deg);
+        -moz-transform: rotate(-13deg);
+        -ms-transform: rotate(-13deg);
+        -o-transform: rotate(-13deg);
+    }
+
+    .home-text {
+        order: 2 !important;
+    }
+
+    .home-img {
+        order: 1 !important;
+    }
+
+    .home-img-box .carousel-control-next {
+        left: 10px;
+        top: 50%;
+    }
+
+    .home-img-box .carousel-control-prev {
+        left: 10px;
+        top: 40%;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+}
+
+@media (max-width:58em) {
+    .about-img-box {
+        width: 90%;
+    }
+
+    .about-img-box::after {
+        transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+    }
+
+    .primary-heading {
+        font-size: 4.2rem;
+    }
+}
+
+@media (max-width:32em) {
+
+    .home-img-box .carousel-control-prev,
+    .home-img-box .carousel-control-next {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-img-box .carousel-control-next {
+
+        top: 55%;
+    }
+
+    .home-img-box .carousel-control-prev {
+
+        top: 40%;
+    }
+
+    .contact-with-agent h2 {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width:29em) {
+    .title p {
+        width: 85%;
+    }
+
+    .about-img-box {
+        width: 90%;
+    }
+
+    .about-img-box::before {
+        width: 60%;
+        left: -30px;
+    }
+
+    .about-img-box::after {
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+    }
+
+    .about h2 {
+        font-size: 3.2rem !important;
+    }
+
+    .primary-heading {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width:25em) {
+    .about h2 {
+        font-size: 2.4rem !important;
+    }
+
+    .primary-heading {
+        font-size: 2.8rem;
+    }
+}
